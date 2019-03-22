@@ -20,6 +20,7 @@ import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
 import org.apache.lucene.index.CorruptIndexException;
 import org.apache.lucene.index.IndexWriter;
+import org.apache.lucene.index.IndexWriterConfig;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.store.LockObtainFailedException;
 
@@ -45,19 +46,19 @@ public class PersonIndexer {
     static ResultSet mainRS = null;
     static int count = 0;
     
-    @SuppressWarnings("deprecation")
     public static void main(String[] args) throws CorruptIndexException, LockObtainFailedException, IOException, InterruptedException {
 	PropertyConfigurator.configure("log4j.info");
 
-	theWriter = new IndexWriter(FSDirectory.open(new File(lucenePath)), new StandardAnalyzer(org.apache.lucene.util.Version.LUCENE_30), true, IndexWriter.MaxFieldLength.UNLIMITED);
+	IndexWriterConfig config = new IndexWriterConfig(org.apache.lucene.util.Version.LUCENE_43, new StandardAnalyzer(org.apache.lucene.util.Version.LUCENE_43));
+	config.setOpenMode(IndexWriterConfig.OpenMode.CREATE);
+	config.setRAMBufferSizeMB(500);
+	theWriter = new IndexWriter(FSDirectory.open(new File(lucenePath)), config);
 
 	dataset = TDBFactory.createDataset(tripleStore);
 	dataset.begin(ReadWrite.READ);
 	indexPersons();
 	dataset.end();
 	logger.info("total added: " + count);
-	logger.info("optimizing index...");
-	theWriter.optimize();
 	theWriter.close();
     }
     
@@ -69,6 +70,7 @@ public class PersonIndexer {
 	    return null;
     }
     
+    @SuppressWarnings("deprecation")
     static void indexPersons() throws CorruptIndexException, IOException {
    	String nameQuery =
 		" SELECT DISTINCT ?s ?lab where { "+

@@ -267,18 +267,38 @@ src/main/webapp/Work/WorkList.jsp -text
 src/main/webapp/classHierarchy.jsp -text
 src/main/webapp/classList.jsp -text
 src/main/webapp/footer.jsp -text
+src/main/webapp/head.jsp -text
 src/main/webapp/header.jsp -text
 src/main/webapp/images/bullet-l1.gif -text
+src/main/webapp/images/cd2h_honeycomb.png -text svneol=unset#image/png
+src/main/webapp/images/cd2h_invent.png -text svneol=unset#image/png
+src/main/webapp/images/ctsa-g-logo.jpg -text svneol=unset#image/jpeg
+src/main/webapp/images/labs-logo.png -text svneol=unset#image/png
+src/main/webapp/images/labslogo2.png -text svneol=unset#image/png
 src/main/webapp/images/loading.gif -text
+src/main/webapp/images/masthead-divider.png -text svneol=unset#image/png
+src/main/webapp/images/masthead-hhs-logo.png -text svneol=unset#image/png
+src/main/webapp/images/masthead-nih-logo.png -text svneol=unset#image/png
+src/main/webapp/images/onlinelogomaker-111617-1142-7717.png -text svneol=unset#image/png
+src/main/webapp/images/person_icon.png -text svneol=unset#image/png
 src/main/webapp/images/shade.gif -text
 src/main/webapp/images/shadeactive.gif -text
 src/main/webapp/index.jsp -text
 src/main/webapp/local_menu_end.jsp -text
 src/main/webapp/local_menu_home.jsp -text
+src/main/webapp/local_nav.jsp -text
 src/main/webapp/menu.jsp -text
 src/main/webapp/resources/ajaxtabs.css -text
 src/main/webapp/resources/ajaxtabs.js -text
+src/main/webapp/resources/cd2h -text
+src/main/webapp/resources/css -text
+src/main/webapp/resources/d3.v3.min.js -text
+src/main/webapp/resources/jdbc_environment.jsp -text
+src/main/webapp/resources/layout(old).css -text
+src/main/webapp/resources/layout.css -text
+src/main/webapp/resources/slick.min.css -text
 src/main/webapp/resources/style.css -text
+src/main/webapp/resources/styles.css -text
 src/main/webapp/territory/territory.jsp -text
 src/main/webapp/territory/territoryList.jsp -text
 src/main/webapp/utility/githubers.jsp -text

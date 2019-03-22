@@ -27,21 +27,6 @@
         
   <dependencies>
   	<dependency>
-  		<groupId>commons-fileupload</groupId>
-  		<artifactId>commons-fileupload</artifactId>
-  		<version>1.1.1</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>commons-io</groupId>
-  		<artifactId>commons-io</artifactId>
-  		<version>1.1</version>
-  	</dependency>
-  	<dependency> <groupId>commons-lang</groupId>
-  		<artifactId>commons-lang</artifactId>
-  		<version>2.5</version>
-  		<scope>runtime</scope>
-  	</dependency>
-  	<dependency>
   		<groupId>taglibs</groupId>
   		<artifactId>standard</artifactId>
   		<version>1.1.2</version>
@@ -106,6 +91,26 @@
         	<groupId>SPARQLTagLib</groupId>
         	<artifactId>SPARQLTagLib</artifactId>
         	<version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.lucene</groupId>
+            <artifactId>lucene-queries</artifactId>
+            <version>4.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.lucene</groupId>
+            <artifactId>lucene-facet</artifactId>
+            <version>4.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.lucene</groupId>
+            <artifactId>lucene-queryparser</artifactId>
+            <version>4.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.lucene</groupId>
+            <artifactId>lucene-analyzers-common</artifactId>
+            <version>4.3.0</version>
         </dependency>
         <dependency>
         	<groupId>org.postgresql</groupId>
