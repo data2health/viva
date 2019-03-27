@@ -284,6 +284,7 @@ src/main/webapp/images/person_icon.png -text svneol=unset#image/png
 src/main/webapp/images/shade.gif -text
 src/main/webapp/images/shadeactive.gif -text
 src/main/webapp/index.jsp -text
+src/main/webapp/local_index.jsp -text
 src/main/webapp/local_menu_end.jsp -text
 src/main/webapp/local_menu_home.jsp -text
 src/main/webapp/local_nav.jsp -text
