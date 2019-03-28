@@ -273,9 +273,11 @@ src/main/webapp/images/bullet-l1.gif -text
 src/main/webapp/images/cd2h_honeycomb.png -text svneol=unset#image/png
 src/main/webapp/images/cd2h_invent.png -text svneol=unset#image/png
 src/main/webapp/images/ctsa-g-logo.jpg -text svneol=unset#image/jpeg
+src/main/webapp/images/idtf_map.png -text svneol=unset#image/png
 src/main/webapp/images/labs-logo.png -text svneol=unset#image/png
 src/main/webapp/images/labslogo2.png -text svneol=unset#image/png
 src/main/webapp/images/loading.gif -text
+src/main/webapp/images/logo_sprite.png -text svneol=unset#image/png
 src/main/webapp/images/masthead-divider.png -text svneol=unset#image/png
 src/main/webapp/images/masthead-hhs-logo.png -text svneol=unset#image/png
 src/main/webapp/images/masthead-nih-logo.png -text svneol=unset#image/png
@@ -283,6 +285,7 @@ src/main/webapp/images/onlinelogomaker-111617-1142-7717.png -text svneol=unset#i
 src/main/webapp/images/person_icon.png -text svneol=unset#image/png
 src/main/webapp/images/shade.gif -text
 src/main/webapp/images/shadeactive.gif -text
+src/main/webapp/images/tile_background4.png -text svneol=unset#image/png
 src/main/webapp/index.jsp -text
 src/main/webapp/local_index.jsp -text
 src/main/webapp/local_menu_end.jsp -text
